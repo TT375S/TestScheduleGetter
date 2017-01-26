@@ -28,7 +28,7 @@ for link in links:
 	#リンクにABやF_Cが含まれる場合は、試験情報pdfファイルへのリンクだとしてダウンロードしてpdftotext。
 	if str( link).find("AB") != -1 or str(link).find("F_C")!=-1:
 		subprocess.call("wget -O "+ fileNames[i] +".pdf " + link, shell = True)
-		cmd = "pdftotext -raw  %s %s" % (fileNames[i]+".pdf", "d_"+fileNames[i]+".txt" )
+		cmd = "pdftotext -raw  %s %s" % (fileNames[i]+".pdf", fileNames[i]+".txt" )
 		subprocess.call( cmd, shell=True  )
 		i = i+1 
 	
