@@ -47,3 +47,5 @@ while line :
 	if not (isTime(line) or  isDate(line)) :
 		f_o.write(date + time + line ) 
 	line = f.readline()	
+
+print input_file + "を扱い易いように手を加えたものを" + output_file + "に出力しました。"

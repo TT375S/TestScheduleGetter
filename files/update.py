@@ -32,5 +32,5 @@ for link in links:
 		subprocess.call( cmd, shell=True  )
 		i = i+1 
 	
-
+print "pdfのダウンロードとプレーンテキストへの変換が終了しました。"
 
