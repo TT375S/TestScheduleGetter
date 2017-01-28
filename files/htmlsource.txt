@@ -1,0 +1,1224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head><meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Expires" content="-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="robots" content="noarchive" />
+
+<link rel="stylesheet" href="./css/import_a.css" type="text/css" media="all" />
+<link rel="stylesheet" href="./css/print.css" type="text/css" media="print" />
+<script type="text/javascript" src="./js/kt_load2.js"></script>
+<script type="text/javascript" src="./js/custom/ZX14/zx14lst2.js"></script>
+<script type="text/javascript" src="./js/wysiwyg147/scripts/wysiwyg.js"></script>
+<script type="text/javascript" src="./js/wysiwyg147/scripts/wysiwyg-settings.js"></script>
+ <style>
+
+#ktTab {
+    padding-left: 13px;
+}
+#ktTabBlock {
+    width: 5px;
+    font-size: 0;
+    text-indent: -9999px;
+}
+*html #ktTabBlock {
+    font-size: 100%;
+}
+.w-lblock {
+    background-image: url('./images/kt_bk_left_b.gif');
+}
+.w-lbox,
+.smblock {
+    display: none;
+}
+.w-rbox {
+    margin-left: 10px;
+}
+.k-table #wKBtnOC {
+        top: 1.5em;
+}
+
+</style>
+<title>Course N@vi</title>
+</head><body class="k-table" id="ly1col" onload="func_kickleftmenu(); ">
+<form name="cForm" enctype="multipart/form-data" method="POST" action="./index.php" style="height: 100%;">
+        <div id="LayoutAll" class="fixedTable">                     <div id="Header">
+          <div id="hbImageL">
+            <div id="hbImageR">
+              <!--header-->
+                            <div class="h-col01">
+  <p class="h-sname"><span>Course N@vi</span></p>
+  <p class="h-uname">Welcome back  戸祭　隆行さん</p>
+  <!--
+    <div class="h-form"><p>身分変更</p>
+    <select id="msviGoButton" name="MibunCD">
+        <option label="" value="ST" selected="selected"></option>
+
+    </select>
+    <input class="button01" type="button" name="btnPositionChg" value="変更" />
+    </div>
+   -->
+   
+     <div class="h-dchBox2" style = "right:350px" >
+      <div align="center">
+      
+                       <table><tbody>
+        <tr>
+                                <td style="padding: 0px;"><b><font color="#702626">通常版</font></b></td>
+                <td><div class="btn00" align="left">
+                <div>
+        <div class="bt">
+        <div></div>
+        </div>
+        <p>
+        <input type="button" name="btn_submit" value="&gt;&gt; 簡易版" onclick="ver_submit('1');" style="padding-top:2px">
+        </p>
+        <div class="bb">
+        <div></div>
+        </div>
+        </div>
+        </div>
+        </td>
+                <td>&nbsp;</td>
+                </tr>
+        </tbody></table>
+                   </div>
+   </div>
+            <div class="h-dchBox" style = "right:120px">
+    <div>
+      <p>デザイン変更</p>
+      <ul class="h-dchb">
+                <li class="h-dchb-1"><span>Design A</span></li>
+        <li class="h-dchb-2"><a onclick="design_submit('b');" href="#">Design B</a></li>
+        <li class="h-dchb-3"><a onclick="design_submit('c');" href="#">Design C</a></li>
+              </ul>
+    </div>
+  </div>
+
+  <div class="h-close">
+      <table class="t-btn">
+        <tr>
+        <td><div class="btn00">
+            <div>
+              <div class="bt">
+                <div> </div>
+              </div>
+              <!--Btn_start -->
+              <p>
+                                <!-- <input type="button" name="btnLogOut" value="閉じる" onclick="func_submit('ZA13,jp');window.close();"/> -->
+                                                <input type="button" name="btnLogOut" value="ログアウト" onclick="onClickWindowCloseForCommon('true')"/>
+                                <input type="hidden" name="hidCurrentViewID" value="ZX14SubCon" />
+                <input type="hidden" name="hidCloseFlg" value="" />
+                <input type="hidden" name="hidSessionDelFlg" value="" />
+                                <!-- <input type="button" name="btnLogOut" value="閉じる" onclick="window.close();"/> -->
+              </p>
+              <div class="bb">
+                <div> </div>
+              </div>
+            </div>
+          </div></td>
+      </tr>
+    </table>
+    <!-- Btn_end -->
+  </div>
+  </div>
+                             <!--header end-->
+            </div>
+          </div>
+        </div>
+       </div>
+         
+        <div id="Contents">
+          <div id="cAll">
+            <div id="cImage">
+              <div id="chImage">
+                <div id="cLayout">
+                  <div id="oLflow">
+                    <div id="cbImageL">
+                      <div id="cbImageR">
+                        <div id="cHeader">
+                          <div id="chEdit">
+                            <p id="cHname" style="display: none;">cheader</p>
+                            <div class="ch-pankuzu">
+                           <ul>
+                            <li class="ch-help"><a href="#" onclick="onContactRegist();">問合せ</a></li>
+                            <li class="ch-help"><a href="#" onclick="menu_list_submit2('ExternalPg/post-manual-st.php','ZX140SubCon');">マニュアル</a></li>
+                           </ul>
+                           </div>
+                                                          <div style="padding:5px"></div>
+                                                        <div id="msgInfo" ></div>
+                          </div>
+                         </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+       
+        
+        
+                                                    <div id="Contents" style="height: 100%;">
+          <div id="cAll" style="height: 100%;">
+            <div id="cImage" style="height: 100%;">
+              <div id="chImage" style="height: 100%;">
+                <!--Contents-->
+                                                                                            <div id="cLayout" style="height: 100%;">
+                  <div id="oLflow" style="height: 100%;">
+                    <div id="cbImageL" style="height: 100%;">
+                      <div id="cbImageR" style="height: 100%;">                         <!-- cLayout_start///////////////////////////////////////////// -->
+                        <div id="cHeader">                             <div id="chEdit">                               <!-- cHeader_start//////////////////// -->
+                            <p id="cHname" style="display: none;">cheader</p>
+                                                            <!-- ContentsHeader_start -->
+
+<div class="c-top-title">
+  <div class="c-ttitle">
+    <div class="cbd-bkt">
+      <div class="cbd-bkb">
+        <div class="cbd-bkl">
+          <div class="cbd-bkr">
+            <div class="cbd-bktop">
+              <div></div>
+            </div>
+                                                      <table class="t-btn" width="100%">
+              <tr>
+                <td width="95%">
+                  <h1 class="type10101un"><span>科目一覧</span></h1>
+                </td>
+                <td>
+                  <div class="btn02">
+                    <div>
+                      <div class="bt">
+                        <div></div>
+                      </div>
+                      <p>
+                        <input name="btn_update" type="button" value="最新の状態に更新" onclick="btnStatusUpdate();">
+                      </p>
+                      <div class="bb">
+                        <div></div>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+                        <div class="cbd-bktop" style="border-bottom-style:dotted;border-bottom-color:#960D0D;border-bottom-width:3px">
+              <div> </div>
+            </div>
+                                                    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ContentsHeader_end -->                               </div>
+                                                    <div id="cMain" style="overflow-y:auto;overflow-x:hidden;height: 80%;">
+<span id="sPage" ></span>
+  <div id="cHonbun">
+    <!-- Main_start//////////////////// -->
+    <div id="cCommon">
+      <div id="wKTab">
+        <!-- Tab_start=======================================================// -->
+        <div class="container">
+         <div><span></span></div>
+          <div id="kt-panel" class="kt-panel">
+            <table class="t-btn">
+              <tr>
+                <td style="text-align:left">
+                 選択した科目に対する操作
+                </td>
+                <td>
+                </td>
+              </tr>            
+              <tr>
+                <td>
+                  <select id="selMakeCombo01" name="selMakeCombo">
+                    <option value=",,," selected="selected" disabled="disabled">操作を選択してください</option>
+                                                                                                    
+                                                                                        <option value="line,,," disabled="disabled"> ---------------------- </option>
+                                                                                          <option value="tocourse,,,"> お気に入りに追加 </option>
+                                                                                          <option value="display,,,"> 再表示 </option>
+                                                                                          <option value="hide,,,"> 非表示 </option>
+                                                                                          <option value="line,,," disabled="disabled"> ---------------------- </option>
+                                                                                          <option value="line, ,fXXXXXX1,5000" disabled="disabled"> シラバス </option>
+                                                                                          <option value=",coursenavi/ExternalPg/post-syllabus3.php,fXXXXXX1,5000">   - 参照 </option>
+                                                                                          <option value=",,fXXXXXX1,5040"> Tutorial Site </option>
+                                                                                          <option value=",ExternalPg/post-tutorial.php,fXXXXXX1,5040">  - lesson </option>
+                                                                                  </select>
+                </td>
+                <td> 
+                  <div class="btn02">
+                    <div>
+                      <div class="bt">
+                        <div></div>
+                      </div>
+                      <p>
+                        <input name="btn_submit" type="button" value="実行" onclick="dropMenu_select();">
+                      </p>
+                      <div class="bb">
+                        <div></div>
+                      </div>
+                    </div>
+                  </div>
+             </td>
+              </tr>
+            </table>
+          </div>
+          <!-- kt-panel -->
+
+          <div id="ktTab" style="padding-left:148px;">
+            <p id="wKBtnOC"></p>
+            <!-- //#wKBtnOC -->
+            <div id="ktTabBlock" style="font-size:100%;text-indent: 0;width:145px;height:64px;">
+ 
+              <div>
+              	<div id="ktTabPanel">
+<p><a onclick="javascript:SelectAllChkbox(true);return false;" href="#">全選択</a>
+<a onclick="javascript:SelectAllChkbox(false);return false;" href="#">全解除</a></p>
+                </div>
+              </div>
+            </div>
+            <!-- //.ktTabBlock -->
+            <ul>
+              <!-- お気に入り -->
+                            <li><a href="#"  onclick="tab_submit('ZX14SubCon','favorite');"><span>お気に入り</span></a></li>
+                            <!-- 開講中科目 -->
+                            <li class="kt-tab-select"><span><span>開講中</span></span></li>
+                            <!-- 開講前科目 -->
+                            <li><a href="#"  onclick="tab_submit('ZX14SubCon','before');"><span>開講前</span></a></li>
+                            <!-- 過去科目 -->
+                            <li><a href="#"  onclick="tab_submit('ZX14SubCon','end');"><span>期間終了</span></a></li>
+                            <!-- 検索タブ -->
+                            <li><a href="#"  onclick="tab_submit('ZX142SubCon','search');"><span>検索</span></a></li>
+                          </ul>
+          </div>
+          <!-- //#ktTab -->
+        </div>
+        <!-- container -->
+        <!-- //=======================================================Tab_end -->
+      </div>
+      <!-- wKTab -->
+		  <div style="position:absolute; top:36px; left:170px;">
+            <table class="t-btn">
+              <tr>
+                <td> 
+                  <div class="btn02">
+                    <div>
+                      <div class="bt">
+                        <div></div>
+                      </div>
+                      <p>
+                        <input name="btn_sequence" type="button" value="表示順更新" onclick="btnSequence();">
+                      </p>
+                      <div class="bb">
+                        <div></div>
+                      </div>
+                    </div>
+                  </div>
+           		</td>
+              </tr>
+            </table>
+          </div>
+      <div id="wKTable" style="overflow: hidden;">
+        <div class="wkt-block">
+          <div class="wkt-btc">
+            <div class="wkt-btl">
+              <div class="wkt-btr">
+                <div class="wkt-bml">
+                  <div class="wkt-bmr">
+                    <div class="wkt-bbc">
+                      <div class="wkt-bbl">
+                        <div class="wkt-bbr">
+                          <div class="wkt-container">
+                            <div class="wkt-block">     <!-- Contents_start=======================================================// -->
+                              <ul>
+                                                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2016260701200601" /><input type="hidden" name="folder_id[]" value="2712814" /><input type="hidden" name="community_name[]" value="回路理論Ｂ" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2016260701200601" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2712814', '', 'list','2016260701200601','0000ST'); return false;"> 
+                                                                                                                                                                  回路理論Ｂ
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="秋期">秋期</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="月２時限">月２時限</span> </p>
+                                                                                <p class="w-col5"><span  title="基幹">基幹</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2016260301200501" /><input type="hidden" name="folder_id[]" value="2712220" /><input type="hidden" name="community_name[]" value="コンピュータアーキテクチャＡ" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2016260301200501" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2712220', '', 'list','2016260301200501','0000ST'); return false;"> 
+                                                                                                                                                                  コンピュータアーキテクチャＡ
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="秋期">秋期</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="月３時限">月３時限</span> </p>
+                                                                                <p class="w-col5"><span  title="基幹">基幹</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2016260011200419" /><input type="hidden" name="folder_id[]" value="2711118" /><input type="hidden" name="community_name[]" value="Academic Reading 2　月５スロボッドニウ" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2016260011200419" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2711118', '', 'list','2016260011200419','0000ST'); return false;"> 
+                                                                                                                                                                  Academic Reading 2　月５スロボッドニウ
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="秋期">秋期</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="月５時限">月５時限</span> </p>
+                                                                                <p class="w-col5"><span  title="基幹">基幹</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2016260701201001" /><input type="hidden" name="folder_id[]" value="2712826" /><input type="hidden" name="community_name[]" value="電子回路" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2016260701201001" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2712826', '', 'list','2016260701201001','0000ST'); return false;"> 
+                                                                                                                                                                  電子回路
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="秋期">秋期</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="火１時限">火１時限</span> </p>
+                                                                                <p class="w-col5"><span  title="基幹">基幹</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2016260301201001" /><input type="hidden" name="folder_id[]" value="2712236" /><input type="hidden" name="community_name[]" value="情報数学Ｂ" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2016260301201001" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2712236', '', 'list','2016260301201001','0000ST'); return false;"> 
+                                                                                                                                                                  情報数学Ｂ
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="秋期">秋期</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="火５時限">火５時限</span> </p>
+                                                                                <p class="w-col5"><span  title="基幹">基幹</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2016260701200801" /><input type="hidden" name="folder_id[]" value="2712822" /><input type="hidden" name="community_name[]" value="通信理論" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2016260701200801" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2712822', '', 'list','2016260701200801','0000ST'); return false;"> 
+                                                                                                                                                                  通信理論
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="秋期">秋期</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="水３時限">水３時限</span> </p>
+                                                                                <p class="w-col5"><span  title="基幹">基幹</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2016260701200701" /><input type="hidden" name="folder_id[]" value="2712818" /><input type="hidden" name="community_name[]" value="信号処理Ｂ" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2016260701200701" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2712818', '', 'list','2016260701200701','0000ST'); return false;"> 
+                                                                                                                                                                  信号処理Ｂ
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="秋期">秋期</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="水４時限">水４時限</span> </p>
+                                                                                <p class="w-col5"><span  title="基幹">基幹</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2016260011200219" /><input type="hidden" name="folder_id[]" value="2710848" /><input type="hidden" name="community_name[]" value="Concept Building And Discussion 2　水５ダイヤー" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2016260011200219" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2710848', '', 'list','2016260011200219','0000ST'); return false;"> 
+                                                                                                                                                                  Concept Building And Discussion 2　水５ダイヤー
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="秋期">秋期</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="水５時限">水５時限</span> </p>
+                                                                                <p class="w-col5"><span  title="基幹">基幹</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2016260301200902" /><input type="hidden" name="folder_id[]" value="2712232" /><input type="hidden" name="community_name[]" value="情報理工学実験Ａ" /><input type="hidden" name="hdnIcon[]" value="3" /><input type="hidden" name="communityIdInfo[]" size="5" value="2016260301200902" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_c">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2712232', '', 'list','2016260301200902','0000ST'); return false;"> 
+                                                                                                                                                                  情報理工学実験Ａ
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="秋期">秋期</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="木３時限～４時限">木３時限...</span> </p>
+                                                                                <p class="w-col5"><span  title="基幹">基幹</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2016260000203701" /><input type="hidden" name="folder_id[]" value="2709822" /><input type="hidden" name="community_name[]" value="社会調査データの分析" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2016260000203701" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2709822', '', 'list','2016260000203701','0000ST'); return false;"> 
+                                                                                                                                                                  社会調査データの分析
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="秋期">秋期</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="金２時限">金２時限</span> </p>
+                                                                                <p class="w-col5"><span  title="基幹">基幹</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2016260301201201" /><input type="hidden" name="folder_id[]" value="2712244" /><input type="hidden" name="community_name[]" value="アルゴリズムとデータ構造Ｂ" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2016260301201201" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2712244', '', 'list','2016260301201201','0000ST'); return false;"> 
+                                                                                                                                                                  アルゴリズムとデータ構造Ｂ
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="秋期">秋期</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="金４時限">金４時限</span> </p>
+                                                                                <p class="w-col5"><span  title="基幹">基幹</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2012B3ZZ00000101" /><input type="hidden" name="folder_id[]" value="2006373" /><input type="hidden" name="community_name[]" value="インキュベーション推進室実施イベント" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2012B3ZZ00000101" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2006373', '', 'list','2012B3ZZ00000101','0000ST'); return false;"> 
+                                                                                                                                                                  インキュベーション推進室実施イベント
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="通年">通年</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="無その他">無その他</span> </p>
+                                                                                <p class="w-col5"><span  title="研究推進部インキュベーション推進室">研究推...</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2015L1ZZ00000601" /><input type="hidden" name="folder_id[]" value="2497788" /><input type="hidden" name="community_name[]" value="学生生活について　15" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2015L1ZZ00000601" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2497788', '', 'list','2015L1ZZ00000601','0000ST'); return false;"> 
+                                                                                                                                                                  学生生活について　15
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="通年">通年</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="無その他">無その他</span> </p>
+                                                                                <p class="w-col5"><span  title="学生部学生生活課">学生部...</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2015L3ZZ00000201" /><input type="hidden" name="folder_id[]" value="2497824" /><input type="hidden" name="community_name[]" value="キャリア・就職支援講座(2015年度入学者）" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2015L3ZZ00000201" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2497824', '', 'list','2015L3ZZ00000201','0000ST'); return false;"> 
+                                                                                                                                                                  キャリア・就職支援講座(2015年度入学者）
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="通年">通年</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="無その他">無その他</span> </p>
+                                                                                <p class="w-col5"><span  title="キャリアセンター">キャリ...</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="201626ZZ00001201" /><input type="hidden" name="folder_id[]" value="2751340" /><input type="hidden" name="community_name[]" value="2016年度　情報理工学科　進級学生" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="201626ZZ00001201" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2751340', '', 'list','201626ZZ00001201','0000ST'); return false;"> 
+                                                                                                                                                                  2016年度　情報理工学科　進級学生
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="通年">通年</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="無その他">無その他</span> </p>
+                                                                                <p class="w-col5"><span  title="基幹">基幹</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="201691ZZ00000301" /><input type="hidden" name="folder_id[]" value="2750501" /><input type="hidden" name="community_name[]" value="Course N@viを知ろう！ 15" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="201691ZZ00000301" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2750501', '', 'list','201691ZZ00000301','0000ST'); return false;"> 
+                                                                                                                                                                  Course N@viを知ろう！ 15
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="通年">通年</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="無その他">無その他</span> </p>
+                                                                                <p class="w-col5"><span  title="ＭＮＣ">ＭＮＣ</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="20169SZZ00001105" /><input type="hidden" name="folder_id[]" value="2798771" /><input type="hidden" name="community_name[]" value="2016年度　コンピュータセキュリティセミナー（学部生向け）" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="20169SZZ00001105" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2798771', '', 'list','20169SZZ00001105','0000ST'); return false;"> 
+                                                                                                                                                                  2016年度　コンピュータセキュリティセミナー（学部生向け）
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="通年">通年</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="無その他">無その他</span> </p>
+                                                                                <p class="w-col5"><span  title="グローバル">グロー...</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2016RGZZ00000301" /><input type="hidden" name="folder_id[]" value="2754544" /><input type="hidden" name="community_name[]" value="理工ITセミナー（日）" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2016RGZZ00000301" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2754544', '', 'list','2016RGZZ00000301','0000ST'); return false;"> 
+                                                                                                                                                                  理工ITセミナー（日）
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="通年">通年</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="無その他">無その他</span> </p>
+                                                                                <p class="w-col5"><span  title="理工学術院統合事務・技術センター技術部技">理工学...</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2016RGZZ00000401" /><input type="hidden" name="folder_id[]" value="2754546" /><input type="hidden" name="community_name[]" value="Science and engineering IT seminar(En)" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2016RGZZ00000401" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2754546', '', 'list','2016RGZZ00000401','0000ST'); return false;"> 
+                                                                                                                                                                  Science and engineering IT seminar(En)
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="通年">通年</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="無その他">無その他</span> </p>
+                                                                                <p class="w-col5"><span  title="理工学術院統合事務・技術センター技術部技">理工学...</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2016S5ZZ00000101" /><input type="hidden" name="folder_id[]" value="2763280" /><input type="hidden" name="community_name[]" value="安全e-learningプログラム2016" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2016S5ZZ00000101" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2763280', '', 'list','2016S5ZZ00000101','0000ST'); return false;"> 
+                                                                                                                                                                  安全e-learningプログラム2016
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2016">2016</span> </p>
+                                        <p class="w-col3"><span  title="通年">通年</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="無その他">無その他</span> </p>
+                                                                                <p class="w-col5"><span  title="環境">環境</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="201191ZZ00003401" /><input type="hidden" name="folder_id[]" value="1677914" /><input type="hidden" name="community_name[]" value="ハラスメント防止" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="201191ZZ00003401" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '1677914', '', 'list','201191ZZ00003401','0000ST'); return false;"> 
+                                                                                                                                                                  ハラスメント防止
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2015">2015</span> </p>
+                                        <p class="w-col3"><span  title="通年">通年</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="無その他">無その他</span> </p>
+                                                                                <p class="w-col5"><span  title="人事課">人事課</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2011EWZZ00000101" /><input type="hidden" name="folder_id[]" value="1804887" /><input type="hidden" name="community_name[]" value="ダイバーシティ推進室提供講座" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2011EWZZ00000101" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '1804887', '', 'list','2011EWZZ00000101','0000ST'); return false;"> 
+                                                                                                                                                                  ダイバーシティ推進室提供講座
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2015">2015</span> </p>
+                                        <p class="w-col3"><span  title="通年">通年</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="無その他">無その他</span> </p>
+                                                                                <p class="w-col5"><span  title="人事課">人事課</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="201398ZZ00000801" /><input type="hidden" name="folder_id[]" value="2084134" /><input type="hidden" name="community_name[]" value="留学ポートフォリオ" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="201398ZZ00000801" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2084134', '', 'list','201398ZZ00000801','0000ST'); return false;"> 
+                                                                                                                                                                  留学ポートフォリオ
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2015">2015</span> </p>
+                                        <p class="w-col3"><span  title="通年">通年</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="">&nbsp;</span> </p>
+                                                                                <p class="w-col5"><span  title="留学">留学</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2012D3ZZ00000101" /><input type="hidden" name="folder_id[]" value="1825173" /><input type="hidden" name="community_name[]" value="防災e-learningプログラム" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2012D3ZZ00000101" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '1825173', '', 'list','2012D3ZZ00000101','0000ST'); return false;"> 
+                                                                                                                                                                  防災e-learningプログラム
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2014">2014</span> </p>
+                                        <p class="w-col3"><span  title="通年">通年</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="無その他">無その他</span> </p>
+                                                                                <p class="w-col5"><span  title="総務部環境安全管理課">総務部...</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                <li>
+                                  <div class="w-lblock" style="background-image:url('./images/kt_bk_left_b.gif');">
+                                    <div class="w-rbox" style="margin-left: 10px;">
+                                      <div class="w-conbox">
+                                                                                <p class="w-col6" style="width: 83px;">
+                                        	                                      <input type="checkbox" name="chkbox[]" value="2014L1ZZ00000701" /><input type="hidden" name="folder_id[]" value="2287449" /><input type="hidden" name="community_name[]" value="早稲田小劇場どらま館" /><input type="hidden" name="hdnIcon[]" value="2" /><input type="hidden" name="communityIdInfo[]" size="5" value="2014L1ZZ00000701" name=""/>
+	                                      	                                      <input type="text" name="sequenceInfo[]" size="5" value="" onkeypress="return onlyNumber(event);" maxlength="4" style="ime-mode:Disabled"/>
+	                                      	                                    </p>
+                                        <p class="w-col1">
+                                                                                                                                    <span class="type10101no_now_b">&nbsp;</span>
+                                                                                                                                                                                                            <a href="#" onclick="post_submit_edit('ZX143SubCon', '2287449', '', 'list','2014L1ZZ00000701','0000ST'); return false;"> 
+                                                                                                                                                                  早稲田小劇場どらま館
+                                                                                                                                                                </a> 
+                                                                                                                        </p>
+                                                                                                                                                                <p class="w-col2"><span  title="2014">2014</span> </p>
+                                        <p class="w-col3"><span  title="通年">通年</span> </p>
+                                                                                                                        <p class="w-col4"><span  title="無その他">無その他</span> </p>
+                                                                                <p class="w-col5"><span  title="学生部学生生活課">学生部...</span> </p>
+                                        <p class="w-col6"><span  title="履修者">履修者</span> </p>
+                                                                                                                                                                
+                                      </div>
+                                    </div>
+                                  </div>
+                                    <!-- //.w-rbox -->
+                                  <!-- //.w-lblock -->
+                                </li>
+                                                                                              </ul>
+                                  <!-- //=======================================================Contents_end -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+                <!-- //.wkt-block -->
+</div>
+    </div>
+    <!-- ////////////////////Main_end -->
+        <!-- Menu_start//////////////////// -->
+    <div id="kMenu" >
+  <div id="mFlow" style="overflow: hidden;">         <div class="menu-block">
+      <ul class="mblock">
+                        <li> <a href="javascript:void(0);" id="2075" onclick="menu(this,this,2075);" > <span>お知らせ</span> </a>      
+                                                                                                <ul class="smblock" style="display: none;">
+                                              
+                                                    <li> <a href="#" onclick="menu_list_submit('ExternalPg/post-notice.php','ZX140SubCon',2075);" > メッセージ一覧 </a> </li>
+                                  </ul>
+        </li>
+                      </ul>
+    </div>
+                <div class="menu-block">
+      <ul class="mblock">
+                        <li> <a href="javascript:void(0);" id="2080" onclick="menu(this,this,2080);" > <span>個人設定</span> </a>      
+                                                                                                        <ul class="smblock" style="display: none;">                
+                                                                                  
+                                                    <li> <a href="#" onclick="menu_list_submit('ExternalPg/post-personal.php','ZX140SubCon',2080);" > 個人設定 </a> </li>
+                                                    <li> <a href="#" onclick="menu_list_submit('ExternalPg/post-profile.php','ZX140SubCon',2080);" > プロフィール編集 </a> </li>
+                                  </ul>
+        </li>
+                      </ul>
+    </div>
+                <div class="menu-block">
+      <ul class="mblock">
+                        <li> <a href="javascript:void(0);" id="2090" onclick="menu(this,this,2090);" > <span>パスワード</span> </a>      
+                                                                                                        <ul class="smblock" style="display: none;">                
+                                                                                  
+                                                    <li> <a href="#" onclick="menu_list_submit('ExternalPg/post-pass-change.php','ZX140SubCon',2090);" > パスワード変更 </a> </li>
+                                  </ul>
+        </li>
+                      </ul>
+    </div>
+                <div class="menu-block">
+      <ul class="mblock">
+                        <li> <a href="javascript:void(0);" id="2100" onclick="menu(this,this,2100);" > <span>ToDoリスト</span> </a>      
+                                                                                                        <ul class="smblock" style="display: none;">                
+                                                                                  
+                                                    <li> <a href="#" onclick="menu_list_submit('ExternalPg/post-non-attend-contents-lst.php','ZX140SubCon',2100);" > ToDoリスト </a> </li>
+                                  </ul>
+        </li>
+                      </ul>
+    </div>
+                <div class="menu-block">
+      <ul class="mblock">
+                        <li> <a href="javascript:void(0);" id="2105" onclick="menu(this,this,2105);" > <span>私書箱</span> </a>      
+                                                                                                <ul class="smblock" style="display: none;">
+                                              
+                                                    <li> <a href="#" onclick="menu_list_submit('ExternalPg/post-office.php','ZX140SubCon',2105);" > メッセージ一覧 </a> </li>
+                                  </ul>
+        </li>
+                      </ul>
+    </div>
+                <div class="menu-block">
+      <ul class="mblock">
+                        <li> <a href="javascript:void(0);" id="2110" onclick="menu(this,this,2110);" > <span>学生授業アンケート</span> </a>      
+                                                                                                        <ul class="smblock" style="display: none;">                
+                                                                                  
+                                  </ul>
+        </li>
+                      </ul>
+    </div>
+                <div class="menu-block">
+      <ul class="mblock">
+                        <li> <a href="javascript:void(0);" id="9010" onclick="menu(this,this,9010);" > <span>利用マニュアル</span> </a>      
+                                                                                                        <ul class="smblock" style="display: none;">                
+                                                                                  
+                                                    <li> <a href="#" onclick="menu_list_submit('ExternalPg/post-manual-st.php','ZX140SubCon',9010);" > 学生向けマニュアル </a> </li>
+                                  </ul>
+        </li>
+                      </ul>
+    </div>
+                <div class="menu-block">
+      <ul class="mblock">
+                        <li> <a href="javascript:void(0);" id="9020" onclick="menu(this,this,9020);" > <span>コンテンツ制作</span> </a>      
+                                                                                                        <ul class="smblock" style="display: none;">                
+                                                                                  
+                                                    <li> <a href="#" onclick="menu_list_submit('ExternalPg/post-expert.php','ZX140SubCon',9020);" > Commons </a> </li>
+                                  </ul>
+        </li>
+                      </ul>
+    </div>
+                <div class="menu-block">
+      <ul class="mblock">
+                        <li> <a href="javascript:void(0);" id="9050" onclick="menu(this,this,9050);" > <span>時間割</span> </a>      
+                                                                                                        <ul class="smblock" style="display: none;">                
+                                                                                  
+                                                    <li> <a href="#" onclick="menu_list_submit('','ZX140SubCon',9050);" > 時間割 </a> </li>
+                                  </ul>
+        </li>
+                      </ul>
+    </div>
+                <div class="menu-block">
+      <ul class="mblock">
+                        <li> <a href="javascript:void(0);" id="9060" onclick="menu(this,this,9060);" > <span>関連リンク</span> </a>      
+                                                                                                        <ul class="smblock" style="display: none;">                
+                                                                                  
+                                                    <li> <a href="#" onclick="menu_list_submit('ExternalPg/post-ocw.php','ZX140SubCon',9060);" > Waseda OCW </a> </li>
+                                  </ul>
+        </li>
+                      </ul>
+    </div>
+         </div>
+</div>    <!-- ////////////////////Menu_end -->
+    </div>
+<!-- Footer_start//////////////////// -->
+        <p class="c-ptop"><a href="#sPage">ページの先頭へ戻る</a></p><div id="Footer2">
+<div id="zx14"><div>
+<div class="fcontents" style="margin: 0px -5px 0px 0px;">
+<p style="float: left;">
+Copyright © Waseda University 2006-2017.All rights reserved.
+&nbsp;&nbsp;Ver.&nbsp;7.0.0</p>
+<ul style="text-align: right;">
+<li class="f-link-start"><a href="http://www.waseda.jp/mnc/COPYRIGHT/index.html" target="licensing">著作権・使用許諾条件</a></li>
+<li><a href="http://www.waseda.jp/mnc/info-sec/waseda_information_security_waseda.html" target="information">個人情報保護</a></li>
+<li><a href="#" onclick="onContactRegist();">お問合せ&nbsp;</a></li>
+<input type="hidden" value="" name="hidContactFunTypeCd" />
+
+<input type="hidden" value="" name="hidContactFolderId" />
+
+<input type="hidden" value="" name="hidContactCommunityId" />
+
+<input type="hidden" value="" name="hidContactContentsId" />
+
+<input type="hidden" value="ZX14" name="hidKamokuId" /></ul>
+<input type="hidden" name="hidSessionTimeOut" value="7200" />
+<input type="hidden" name="hidWarningForSessionTimeOut" value="600" />
+<input type="hidden" name="hidWarningForSessionTimeOutDispLogin" value="21600" />
+
+<input type="hidden" name="xpoint" id="xpoint" value="9999">
+<input type="hidden" name="ypoint" id="ypoint" value="9999">
+<input type="hidden" name="tagname" id="tagname" value="">
+<input type="hidden" name="SessionIdEncodeKey" value="473c35011bc16f383ac8d216abc462ba" id="SessionIdEncodeKey">
+
+<script type="text/javascript" src="./js/exitbtn_cfmmsg.js"></script>
+
+
+<input type="hidden" name="hidAdmission" value='b7ac2eedd380a7fc506528c5def6b8d8'>
+<input type="hidden" name="hidAdmKey01" value="">
+<input type="hidden" name="hidAdmKey02" value="">
+<input type="hidden" name="hidAdmKey03" value="">
+<input type="hidden" name="hidAdmKey04" value="">
+<input type="hidden" name="hidAdmKey05" value="">
+<input type="hidden" name="hidAdmKey06" value="">
+<input type="hidden" name="hidAdmKey07" value="">
+<input type="hidden" name="hidAdmKey08" value="">
+<input type="hidden" name="hidAdmKey90" value="">
+<input type="hidden" name="hidAdmKey91" value="">
+</div>
+</div></div>
+</div>
+<!-- ////////////////////Footer_end -->
+
+</div>
+<input type="hidden" name="hidLanguage" value="" />
+<input type="hidden" name="hidState" value="list" />
+<input type="hidden" name="hidCommounity" value="201191ZZ00003401,2011EWZZ00000101,2012B3ZZ00000101,2012D3ZZ00000101,201398ZZ00000801,2014L1ZZ00000701,2015L1ZZ00000601,2015L3ZZ00000201,2016260000203701,2016260011200219,2016260011200419,2016260301200501,2016260301200902,2016260301201001,2016260301201201,2016260701200601,2016260701200701,2016260701200801,2016260701201001,201626ZZ00001201,201691ZZ00000301,20169SZZ00001105,2016RGZZ00000301,2016RGZZ00000401,2016S5ZZ00000101" />
+<input type="hidden" name="hidDesignFlg" value="1" />
+<input type="hidden" name="hidCurrentStudyFlg" value="" />
+<input type="hidden" name="simpletype" value="0" />
+<input type="hidden" name="hidListMode"            value="list" />
+<input type="hidden" name="hidFolderId"            value="" />
+<input type="hidden" name="hidContentsId"        value="" />
+<input type="hidden" name="hidCurrentFolderId"    value="" />
+<input type="hidden" name="hidNewListFlg"        value="" />
+<input type="hidden" name="hidMenuFlg"            value="" />
+<input type="hidden" name="hidEditButton"        value="" />
+<input type="hidden" name="hidNewWindowFlg"        value="" />
+<!-- まずは固定値にて対応 -->
+<input type="hidden" name="hidCommunityId"        value="" />
+<input type="hidden" name="hidCommKcd"            value="01" />
+<input type="hidden" name="hidCommBcd"            value="01" />
+<input type="hidden" name="hidCheckSelectFlg"     value="" />
+
+<input type="hidden" name="hidSwfFileName"     value="" />
+<input type="hidden" name="hidFlg"     value="" />
+<input type="hidden" name="hidUsers"     value="" />
+<input type="hidden" name="hidListCnt"     value="25" />
+<input type="hidden" name="hidLogoutFlg"     value="" />
+<input type="hidden" name="hidLoginID"  value="cs5943vgn@toki.waseda.jp" />
+
+                                                     </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Contents end-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="Footer">
+        <div id="fbImageL">
+        <div id="fbImageR">
+            </div>
+          </div>
+        </div>
+        <input type="hidden" name="hidSessionKey" value="20170125132120270686">
+        <input type="hidden" name="hidPankuzuSessionKey" value="">
+        <input type="text" style="display: none;" />
+        <input type="hidden" name="ControllerParameters" value="">
+        <input type="hidden" name="hidTabId" value="">
+        <input type="hidden" name="hidMenuId" value="">
+        <input type="hidden" name="hidDesignId" value="">
+        <input type="hidden" name="hidURL" value="">
+        <script language="javascript">HiddenExistCheck();</script>
+      </div>
+             </div>
+      </form>
+<div><img class="j-read" src="images/space.gif" width="1" height="1" alt="" onload="wResize();" /></div>
+</body>
+</html>
+

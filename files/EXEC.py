@@ -13,7 +13,7 @@ subprocess.call(python + cmd_update[0], shell = True)
 for i in range(4):
 	subprocess.call(python + cmd_update[1] + fileNames[i] + " d_"+ fileNames[i], shell= True )
 
-cmd_search = ["digestHTML.py anohtml.txt", "search.py" ]
+cmd_search = ["digestHTML.py -l", "search.py" ]
 
 subprocess.call(python + cmd_search[0], shell = True)
 subprocess.call(python + cmd_search[1], shell = True)
